@@ -1,0 +1,128 @@
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.relative {
+    position: relative;
+}
+.banner-area {
+  background: url(../../images/header-bg.jpg) center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-area .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.banner-content {
+    text-align: left;
+}
+.banner-content h6 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+
+.heading_logo{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    position: absolute;
+}
+@media (max-width: 767px) {
+  .fullscreen {
+    height: 100% !important;
+  }
+}
+.banner-content {
+  text-align: left;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-top: 20px;
+}
+
+.banner-content h1 span {
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .banner-content h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner-content h1 br {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .banner-content h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-content h1 {
+    font-size: 32px;
+  }
+}
+
+.banner-content h6 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1280px) {
+  .banner-content br {
+    display: none;
+  }
+}
+
+@media (max-width: 763px) {
+  .banner-content h6, .banner-content p, .banner-content a {
+    display: none;
+  }
+  .banner-content h1 {
+    text-align: center;
+    padding-top: 50px;
+    display: block !important;
+  }
+}
+.height-100vh{
+    height:100vh;
+}
+.header-right {
+    background-color: rgba(32, 46, 69, 0.4);
+    border: 1px solid #4b5263;
+    padding: 50px;
+}
+.yellow{
+       color: #fab700;
+}
