@@ -1,8 +1,6 @@
 export const URL = "http://carwash-2020.herokuapp.com/v1";
 export const bearer = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlYzA0OTI5MC03MTRmLTQ5YWYtODcxYS1jMDllNTMxOTY1ZDQiLCJleHAiOjE1OTEzNzY3NDQsImlhdCI6MTU5MDQ4NzcxMX0.ePH_Myi4X3h7Oi6g_sqey91UutIFH4mSfT3UWmXgGhU";
 
-
-
 export const fetchApi = (path, method, body, callback) => {
     let url = `${URL}/${path}`
     let obj = {

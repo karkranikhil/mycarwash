@@ -4,8 +4,7 @@ import SelectBox from '../SelectBox/index'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import './style.css'
-import { fetchApi, URL, bearer } from '../../Services/services'
-import { CAR_TYPES, SERVICES_TYPES } from '../../Constants.js'
+import { fetchApi } from '../../Services/services'
 
 const FORM_DATA = {
     vehicleType: '',
@@ -38,7 +37,7 @@ const Form = () => {
             fetchAllVehicles()
         }
 
-    }, [])
+    }, [VEHICLE_LIST])
 
     const fetchAllVehicles = () => {
         setLoader(true)
